@@ -1,0 +1,45 @@
+.One-section {
+    justify-content: center;
+    text-align: center; 
+    background-color: #282c34; 
+    color: white; 
+    border-radius: 10px; 
+  }
+  
+  .One-topic-list {
+    list-style-type: none;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    padding-bottom: 5px;
+  }
+  
+  .One-topic-item {
+    background-color: #434955;
+    margin: 15px;
+    border-radius: 10px;
+    width: 680px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .One-topic-item:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+  
+  .One-topic-image {
+    width: 680px; 
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+  }
+  .discover-header {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin-bottom: 20px;
+    color: white; 
+  }

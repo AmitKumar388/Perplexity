@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  background-color: #282c34;
+}
+.content {
+  margin-left: 200px; 
+  flex-grow: 1;
+  padding: 20px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px; 
+}
+.App-header hr{
+  color: white;
+}
+
+.topic-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+.topic-image {
+  width: 100%;
+  border-radius: 10px;
+  height: auto;
+}
+.Balance {
+  width: 120%;
+  padding-left: 20%;
+}

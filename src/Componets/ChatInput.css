@@ -1,0 +1,55 @@
+.chat-input-container {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: fixed; 
+    bottom: 20px;    
+    left: 60%;       
+    transform: translateX(-50%); 
+    z-index: 1000;   
+}
+
+.attachment-icon {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.attach-label {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.file-input {
+    display: none;
+}
+
+.message-input {
+    flex-grow: 1;
+    border: none;
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.send-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #aaa;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.send-button:hover {
+    color: #fff;
+}

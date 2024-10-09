@@ -1,0 +1,84 @@
+.sidebar {
+  background-color: #353a42; 
+  color: white; 
+  padding: 20px;
+  height: 100%;
+  width: 180px; 
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.search-container {
+  margin-bottom: 20px; 
+  width: 144px;
+  justify-content: center;
+
+}
+
+.search-input {
+  width: 100%; 
+  padding: 10px; 
+  border: none;
+  border-radius: 5px;
+  background-color: #282c34; 
+  color: white;
+  font-weight: bolder; 
+}
+
+.sidebar-list {
+  list-style-type: none;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.sidebar-item {
+  margin: 10px 0;
+  padding-bottom: 15px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.sidebar-item:hover {
+  color: #61dafb; 
+}
+.signup-button {
+  width: 100%; 
+  padding: 10px; 
+  background-color: cyan; 
+  color: black; 
+  border: none; 
+  border-radius: 25px; 
+  cursor: pointer; 
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s, transform 0.2s; 
+}
+
+.signup-button:hover {
+  background-color: deepskyblue; 
+  transform: translateY(-2px); 
+}
+
+.signup-button:active {
+  transform: translateY(0); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.sidebar-item {
+  margin: 10px 0;
+  cursor: pointer;
+  display: flex; 
+  align-items: center; 
+  transition: color 0.3s;
+}
+
+.sidebar-icon {
+  width: 20px; 
+  height: 20px; 
+  margin-right: 10px; 
+}
+
+.sidebar-item:hover {
+  color: #61dafb; 
+}
