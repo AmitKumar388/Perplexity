@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e0732799.css",
+    "main.js": "/static/js/main.d69877c3.js",
+    "static/js/453.a94e2872.chunk.js": "/static/js/453.a94e2872.chunk.js",
+    "static/media/loupe.png": "/static/media/loupe.6c977874445fbcd39ac9.png",
+    "index.html": "/index.html",
+    "main.e0732799.css.map": "/static/css/main.e0732799.css.map",
+    "main.d69877c3.js.map": "/static/js/main.d69877c3.js.map",
+    "453.a94e2872.chunk.js.map": "/static/js/453.a94e2872.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0732799.css",
+    "static/js/main.d69877c3.js"
+  ]
+}
